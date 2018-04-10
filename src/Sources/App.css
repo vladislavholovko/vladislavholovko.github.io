@@ -1,0 +1,168 @@
+body {
+    background: url("https://wallpaperscraft.ru/image/gory_tuman_tsvety_oblaka_118454_1920x1080.jpg");
+    background-attachment: fixed;
+}
+
+.myHeader {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to bottom, rgba(73, 85, 102, 0.8), rgba(86, 97, 112, 0));
+    /*border-radius: 10px 10px 0 0;*/
+    justify-content: space-between;
+    padding: 0 1% 0 1%;
+
+    font-family: 'Pacifico', cursive;
+}
+
+.logo {
+    text-shadow: 5px 5px 10px #000;
+}
+
+.logo:hover{
+    text-shadow: 10px 10px 10px #000;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.divSearch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.searchInput {
+    border-radius: 5px;
+    width: 300px;
+    height: 40%;
+    font-family: 'Neucha', cursive;
+}
+
+.searchInput:hover {
+    border: 2px solid rgb(74, 78, 84);
+}
+
+/*==================================*/
+
+.addTaskBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*background-color: rgba(247, 119, 35, 0.4);*/
+    /*border: 2px solid rgba(193, 97, 29, 0.3);*/
+    border-radius: 3px 3px 3px 3px;
+}
+
+.addLabel {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    font-family: 'Neucha', cursive;
+    cursor: pointer;
+}
+
+.divAdd {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    justify-content: space-between;
+    padding: 1%;
+    width: 70%;
+}
+
+.addInput {
+    height: 100%;
+    flex: 1 1 85%;
+    margin: 0 3px 0 3px;
+    border-radius: 5px;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+
+}
+
+.addInput:hover {
+    border: 2px solid rgb(74, 78, 84);
+}
+
+.timeInput {
+    height: 100%;
+    flex: 0 1 13%;
+    margin: 0 3px 0 3px;
+    border-radius: 5px;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+}
+
+.timeInput:hover {
+    border: 2px solid rgb(74, 78, 84);
+}
+
+.divAdd button {
+    border-radius: 8px;
+    height: 120%;
+    border: 1px solid rgba(78, 87, 99, 0.5);
+    background: rgba(73, 85, 102, 0.4);
+    font-family: 'Neucha', cursive;
+}
+
+.divAdd button:hover {
+    border: 1px solid rgba(78, 87, 99, 0.5);
+    background: rgba(106, 120, 140, 0.4);
+}
+
+/*==================================*/
+
+.infoBlock {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 20px auto 0 auto;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+
+}
+
+.taskElements {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 5px 0;
+    color: #fff;
+}
+
+.taskElements:hover {
+    border: 1px solid rgba(73, 85, 102, 0.8);
+    background: rgba(86, 97, 112, 0.3);
+}
+
+.taskDiv {
+    width: 90%;
+    display: flex;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+.buttonDel{
+    display: flex;
+    justify-content: flex-end;
+    width: 10%;
+}
+/*------*/
+.true {
+    text-decoration: line-through;
+    color: rgba(86, 97, 112, 0.7);
+    cursor: pointer;
+    margin:0 5px 0 5px ;
+}
+
+.false {
+    cursor: pointer;
+    margin:0 5px 0 5px ;
+}
+
+/*-------*/
+
+.upButton, .downButton, .deleteButton {
+    cursor: pointer;
+}
